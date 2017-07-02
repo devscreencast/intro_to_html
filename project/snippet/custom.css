@@ -1,0 +1,104 @@
+
+body{
+    background:url("images/bg.png") repeat;
+    color: #000000;
+}
+
+h1, h2{
+    color: coral;
+    text-transform: capitalize;
+}
+
+p.center{
+    text-align: center;
+}
+h1.center{
+    text-align: center;
+    font-size: 40px;
+}
+
+.normalText{
+    font-weight: normal;
+}
+
+#homeImage{
+   width: 600px;
+    height: 500px;
+    border: solid;
+    border-color: red green black blue;
+    border-width: 30px 15px 30px 15px;
+}
+
+#resolutions{
+    background: url("images/desert-road.png");
+}
+
+#timeline{
+     background:#ffffff;
+ }
+
+#menu{
+    /**
+    clockwise direction
+    */
+    margin:10px;
+    border: 2px solid lightcyan;
+    padding: 10px;
+}
+
+a:link{
+    color: coral;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+    background: lightgray;
+}
+
+a:active{
+    color: green;
+    background: lightgray;
+}
+
+div#menu a:link{
+    color: coral;
+    background-color: lightblue;
+    padding: 10px 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: auto;
+}
+
+.green{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin-left: 5px;
+    float: left;
+}
+
+.pink{
+    background-color: hotpink;
+    height: 200px;
+    float: left;
+    margin-left: 5px;
+    width: 200px;
+}
+
+.orange{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    margin-left: 5px;
+    float: left;
+}
+
+.clearFix{
+    clear: both;
+}

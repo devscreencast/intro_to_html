@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working with Forms in HTML</title>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+<form action="" method="post">
+    Username:
+    <input type="text" name="username"><br /><br />
+    Password:
+    <input type="password" name="password"> <br /><br />
+    Address:<br />
+    <textarea name="address" cols="23" rows="4">Your address</textarea>
+    <br />
+    Gender: <input type="radio" name="gender" >Male
+    <input type="radio" name="gender" >Female
+    <br />
+    <br />
+    Computer Skills:
+    <input type="checkbox" name="skills">Java
+    <input type="checkbox" name="skills">JavaScript
+    <input type="checkbox" name="skills">PHP
+    <input type="checkbox" name="skills">HTML
+    <input type="checkbox" name="skills">CSS
+    <br /><br />
+    Country:
+    <select name="country">
+        <option>USA</option>
+        <option>Australia</option>
+        <option>UK</option>
+        <option>France</option>
+        <option>Nigeria</option>
+    </select>
+    <br /><br />
+    <input type="file" name="avatar" accept="image/*">
+    <br /><br />
+    <input type="hidden" name="user_id" value="01">
+    <input type="submit" value="Register">
+    <input type="reset" value="Cancel">
+</form>
+
+</body>
+</html>
